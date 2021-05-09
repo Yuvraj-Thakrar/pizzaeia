@@ -11,7 +11,7 @@ console.log(menu_list);
 htmlData="<section class='cards'>"
 for ( i =0;i<menu_list.length;i++) {
 
-htmlData=htmlData+'<div class="card">'+'<img src="images/menu.png"/>'+menu_list[i]+'</div>';
+htmlData=htmlData+'<div class="card">'+'<img src="menu.png"/>'+menu_list[i]+'</div>';
 console.log(htmlData);
 
 }
